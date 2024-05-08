@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "@types/markdown-it": "^14.1.1",
+    "@types/node": "^20.12.11",
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
+    "tailwindcss": "^3.4.3",
+    "vitepress": "^1.1.4",
+    "vue": "^3.4.27"
+  },
+  "pnpm": {
+    "overrides": {
+      "@vitejs/plugin-vue": "5.0.0-beta.1"
+    }
+  }
+}
