@@ -11,7 +11,9 @@ function getDateTime() {
 <template>
   <dl>
     <dt class="sr-only">发表于</dt>
-    <dd class="text-base leading-6 font-medium text-gray-500 dark:text-gray-300">
+    <dd
+      class="text-base leading-6 font-medium text-gray-500 dark:text-gray-300"
+    >
       <time :datetime="getDateTime()">{{ date.string }}</time>
     </dd>
   </dl>

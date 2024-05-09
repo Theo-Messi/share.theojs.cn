@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "serve": "vitepress serve"
+    "serve": "vitepress serve",
+    "preview": "vitepress preview",
+    "prettier": "pnpm exec prettier . --write"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",
@@ -13,7 +15,8 @@
     "gray-matter": "^4.0.3",
     "tailwindcss": "^3.4.3",
     "vitepress": "^1.1.4",
-    "vue": "^3.4.27"
+    "vue": "^3.4.27",
+    "prettier": "3.2.5"
   },
   "pnpm": {
     "overrides": {
