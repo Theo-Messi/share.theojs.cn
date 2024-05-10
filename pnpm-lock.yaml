@@ -41,6 +41,9 @@ importers:
       hexo-generator-tag:
         specifier: ^1.0.0
         version: 1.0.0
+      hexo-pagination:
+        specifier: ^3.0.0
+        version: 3.0.0
       hexo-permalink-pinyin:
         specifier: ^1.1.0
         version: 1.1.0
