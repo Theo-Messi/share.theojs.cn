@@ -19,7 +19,7 @@
     "hexo": "^6.0.0",
     "hexo-filter-github-emojis": "^3.0.5",
     "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-sitemap": "^3.0.1",
