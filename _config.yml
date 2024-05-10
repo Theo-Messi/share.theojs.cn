@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 20
   order_by: -date
 
 # Category & Tag
@@ -128,10 +128,8 @@ feed:
   order_by: -date
 
 sitemap:
-  path:
-    - sitemap.xml
-  # template: ./sitemap_template.xml
-  rel: true
+  path: sitemap.xml
+  rel: false
 
 permalink_pinyin:
   enable: true # 启用插件
