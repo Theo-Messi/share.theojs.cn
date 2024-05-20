@@ -9,64 +9,64 @@ importers:
   .:
     dependencies:
       gulp:
-        specifier: ^5.0.0
+        specifier: 5.0.0
         version: 5.0.0
       gulp-htmlclean:
-        specifier: ^2.7.22
+        specifier: 2.7.22
         version: 2.7.22
       gulp-htmlmin:
-        specifier: ^5.0.1
+        specifier: 5.0.1
         version: 5.0.1
       hexo:
-        specifier: ^7.2.0
-        version: 7.2.0
+        specifier: 7.2.0
+        version: 7.2.0(chokidar@3.6.0)
       hexo-filter-github-emojis:
-        specifier: ^3.0.5
+        specifier: 3.0.5
         version: 3.0.5
       hexo-generator-archive:
-        specifier: ^2.0.0
+        specifier: 2.0.0
         version: 2.0.0
       hexo-generator-category:
-        specifier: ^2.0.0
+        specifier: 2.0.0
         version: 2.0.0
       hexo-generator-feed:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: 3.0.0
+        version: 3.0.0(chokidar@3.6.0)
       hexo-generator-index:
-        specifier: ^3.0.0
+        specifier: 3.0.0
         version: 3.0.0
       hexo-generator-sitemap:
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: 3.0.1
+        version: 3.0.1(chokidar@3.6.0)
       hexo-generator-tag:
-        specifier: ^2.0.0
+        specifier: 2.0.0
         version: 2.0.0
       hexo-pagination:
-        specifier: ^3.0.0
+        specifier: 3.0.0
         version: 3.0.0
       hexo-permalink-pinyin:
-        specifier: ^1.1.0
+        specifier: 1.1.0
         version: 1.1.0
       hexo-renderer-ejs:
-        specifier: ^2.0.0
+        specifier: 2.0.0
         version: 2.0.0
       hexo-renderer-markdown-it:
-        specifier: ^7.1.1
+        specifier: 7.1.1
         version: 7.1.1
       hexo-renderer-stylus:
-        specifier: ^3.0.1
+        specifier: 3.0.1
         version: 3.0.1
       hexo-server:
-        specifier: ^3.0.0
+        specifier: 3.0.0
         version: 3.0.0
       hexo-theme-minimalism:
-        specifier: ^1.3.11
-        version: 1.3.11
+        specifier: 1.3.11
+        version: 1.3.11(chokidar@3.6.0)
       lint-staged:
-        specifier: ^15.2.2
+        specifier: 15.2.2
         version: 15.2.2
       simple-git-hooks:
-        specifier: ^2.11.1
+        specifier: 2.11.1
         version: 2.11.1
     devDependencies:
       prettier:
@@ -1278,8 +1278,8 @@ packages:
       chokidar:
         optional: true
 
-  nwsapi@2.2.9:
-    resolution: {integrity: sha512-2f3F0SEEer8bBu0dsNCFF50N0cTThV1nWFYcEYFZttdW0lDAoybv9cQoK7X7/68Z89S7FoRrVjP1LPX4XRf9vg==}
+  nwsapi@2.2.10:
+    resolution: {integrity: sha512-QK0sRs7MKv0tKe1+5uZIQk/C8XGza4DAnztJG8iD+TpJIORARrCxczA738awHrZoHeTjSSoHqao2teO0dC/gFQ==}
 
   object.defaults@1.1.0:
     resolution: {integrity: sha512-c/K0mw/F11k4dEUBMW8naXUuBuhxRCfG7W+yFy8EcijU/rSmazOUd1XAEEe6bC0OuXY4HUKjTJv7xbxIMqdxrA==}
@@ -1396,8 +1396,8 @@ packages:
     resolution: {integrity: sha512-QLcPegTHF11axjfojBIoDygmS2E3Lf+8+jI6wOVmNVenrKSo3mFdSGiIgdSHenczw3wPtlVMQaFVwGmM7BJdtg==}
     engines: {node: '>=0.10.0'}
 
-  picocolors@1.0.0:
-    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+  picocolors@1.0.1:
+    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
 
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -2583,7 +2583,7 @@ snapshots:
       hexo-log: 4.1.0
       hexo-util: 3.3.0
       minimist: 1.2.8
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       resolve: 1.22.8
       tildify: 2.0.0
 
@@ -2628,10 +2628,10 @@ snapshots:
     dependencies:
       hexo-pagination: 3.0.0
 
-  hexo-generator-feed@3.0.0:
+  hexo-generator-feed@3.0.0(chokidar@3.6.0):
     dependencies:
       hexo-util: 2.7.0
-      nunjucks: 3.2.4
+      nunjucks: 3.2.4(chokidar@3.6.0)
     transitivePeerDependencies:
       - chokidar
 
@@ -2639,11 +2639,11 @@ snapshots:
     dependencies:
       hexo-pagination: 3.0.0
 
-  hexo-generator-sitemap@3.0.1:
+  hexo-generator-sitemap@3.0.1(chokidar@3.6.0):
     dependencies:
       hexo-util: 2.7.0
       micromatch: 4.0.5
-      nunjucks: 3.2.4
+      nunjucks: 3.2.4(chokidar@3.6.0)
     transitivePeerDependencies:
       - chokidar
 
@@ -2661,11 +2661,11 @@ snapshots:
 
   hexo-log@3.2.0:
     dependencies:
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   hexo-log@4.1.0:
     dependencies:
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   hexo-pagination@3.0.0: {}
 
@@ -2708,14 +2708,14 @@ snapshots:
       mime: 3.0.0
       morgan: 1.10.0
       open: 8.4.2
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       serve-static: 1.15.0
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-minimalism@1.3.11:
+  hexo-theme-minimalism@1.3.11(chokidar@3.6.0):
     dependencies:
-      hexo: 6.3.0
+      hexo: 6.3.0(chokidar@3.6.0)
       hexo-pagination: 3.0.0
       marked: 12.0.2
     transitivePeerDependencies:
@@ -2742,7 +2742,7 @@ snapshots:
       prismjs: 1.29.0
       strip-indent: 3.0.0
 
-  hexo@6.3.0:
+  hexo@6.3.0(chokidar@3.6.0):
     dependencies:
       abbrev: 1.1.1
       archy: 1.0.0
@@ -2759,8 +2759,8 @@ snapshots:
       moize: 6.1.6
       moment: 2.30.1
       moment-timezone: 0.5.45
-      nunjucks: 3.2.4
-      picocolors: 1.0.0
+      nunjucks: 3.2.4(chokidar@3.6.0)
+      picocolors: 1.0.1
       pretty-hrtime: 1.0.3
       resolve: 1.22.8
       strip-ansi: 6.0.1
@@ -2771,7 +2771,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  hexo@7.2.0:
+  hexo@7.2.0(chokidar@3.6.0):
     dependencies:
       abbrev: 2.0.0
       archy: 1.0.0
@@ -2788,8 +2788,8 @@ snapshots:
       moize: 6.1.6
       moment: 2.30.1
       moment-timezone: 0.5.45
-      nunjucks: 3.2.4
-      picocolors: 1.0.0
+      nunjucks: 3.2.4(chokidar@3.6.0)
+      picocolors: 1.0.1
       pretty-hrtime: 1.0.3
       resolve: 1.22.8
       strip-ansi: 6.0.1
@@ -2989,7 +2989,7 @@ snapshots:
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
       is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.9
+      nwsapi: 2.2.10
       parse5: 6.0.1
       saxes: 5.0.1
       symbol-tree: 3.2.4
@@ -3231,13 +3231,15 @@ snapshots:
 
   number-is-nan@1.0.1: {}
 
-  nunjucks@3.2.4:
+  nunjucks@3.2.4(chokidar@3.6.0):
     dependencies:
       a-sync-waterfall: 1.0.1
       asap: 2.0.6
       commander: 5.1.0
+    optionalDependencies:
+      chokidar: 3.6.0
 
-  nwsapi@2.2.9: {}
+  nwsapi@2.2.10: {}
 
   object.defaults@1.1.0:
     dependencies:
@@ -3339,7 +3341,7 @@ snapshots:
     dependencies:
       path-root-regex: 0.1.2
 
-  picocolors@1.0.0: {}
+  picocolors@1.0.1: {}
 
   picomatch@2.3.1: {}
 
