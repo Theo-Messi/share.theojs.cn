@@ -129,7 +129,7 @@ feed:
 
 sitemap:
   path: sitemap.xml
-  rel: false
+  rel: true
 
 permalink_pinyin:
   enable: true # 启用插件
