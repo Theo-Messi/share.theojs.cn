@@ -18,8 +18,8 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1
       hexo:
-        specifier: ^7.2.0
-        version: 7.2.0(chokidar@3.6.0)
+        specifier: ^7.3.0
+        version: 7.3.0(chokidar@3.6.0)
       hexo-filter-github-emojis:
         specifier: ^3.0.5
         version: 3.0.5
@@ -839,8 +839,8 @@ packages:
     engines: {node: '>=12.13.0'}
     hasBin: true
 
-  hexo@7.2.0:
-    resolution: {integrity: sha512-RYIzl7jfG0i2jH/k5IZg4C1anyHfmKHNUsBKIn9LU0V3iQ0WQrwuOLFDJwaZDenqmzHYJhAVCGAkrBDfF/IlVg==}
+  hexo@7.3.0:
+    resolution: {integrity: sha512-dOe8mzBKrvjubW5oBmyhcnQDpC+M2xmAMLae5K+o+SkHxyvAhShkS2VQZoTsOLIJKY6xilv7dzCjCvE7ol/NHQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2781,7 +2781,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  hexo@7.2.0(chokidar@3.6.0):
+  hexo@7.3.0(chokidar@3.6.0):
     dependencies:
       abbrev: 2.0.0
       archy: 1.0.0
