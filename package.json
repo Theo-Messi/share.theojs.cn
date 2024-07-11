@@ -1,16 +1,13 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
   "scripts": {
     "build": "hexo clean && hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo clean && hexo server",
-    "prettier": "pnpm exec prettier . --write"
+    "prettier": "prettier . --write"
   },
   "hexo": {
-    "version": "7.2.0"
+    "version": "^7.2.0"
   },
   "dependencies": {
     "gulp": "^5.0.0",

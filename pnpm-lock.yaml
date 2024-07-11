@@ -119,8 +119,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  acorn@8.12.0:
-    resolution: {integrity: sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==}
+  acorn@8.12.1:
+    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -844,8 +844,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  highlight.js@11.9.0:
-    resolution: {integrity: sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==}
+  highlight.js@11.10.0:
+    resolution: {integrity: sha512-SYVnVFswQER+zu1laSya563s+F8VDGt7o35d4utbamowvUNLLMovFqwCLSocpZTz3MgaSRA1IbqRWZv97dtErQ==}
     engines: {node: '>=12.0.0'}
 
   homedir-polyfill@1.0.3:
@@ -920,8 +920,9 @@ packages:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
 
-  is-core-module@2.13.1:
-    resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
+  is-core-module@2.14.0:
+    resolution: {integrity: sha512-a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==}
+    engines: {node: '>= 0.4'}
 
   is-docker@2.2.1:
     resolution: {integrity: sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==}
@@ -1072,8 +1073,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  listr2@8.2.1:
-    resolution: {integrity: sha512-irTfvpib/rNiD637xeevjO2l3Z5loZmuaRi0L0YE5LfijwVY96oyVn0DFD3o/teAok7nfobMG1THvvcHh/BP6g==}
+  listr2@8.2.3:
+    resolution: {integrity: sha512-Lllokma2mtoniUOS94CcOErHWAug5iu7HOmDrvWgpw8jyQH2fomgB+7lZS4HWZxytUuQwkGOwe49FvwVaA85Xw==}
     engines: {node: '>=18.0.0'}
 
   locate-path@3.0.0:
@@ -1138,8 +1139,8 @@ packages:
     resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
     hasBin: true
 
-  marked@13.0.0:
-    resolution: {integrity: sha512-VTeDCd9txf4KLLljUZ0nljE/Incb9SrWuueE44QVuU0pkOdh4sfCeW1Z6lPcxyDRSVY6rm8db/0OPaN75RNUmw==}
+  marked@13.0.2:
+    resolution: {integrity: sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -1282,8 +1283,8 @@ packages:
       chokidar:
         optional: true
 
-  nwsapi@2.2.10:
-    resolution: {integrity: sha512-QK0sRs7MKv0tKe1+5uZIQk/C8XGza4DAnztJG8iD+TpJIORARrCxczA738awHrZoHeTjSSoHqao2teO0dC/gFQ==}
+  nwsapi@2.2.12:
+    resolution: {integrity: sha512-qXDmcVlZV4XRtKFzddidpfVP4oMSGhga+xdMc25mv8kaLUHtgzCDhUxkrN8exkGdTlLNaXj7CV3GtON7zuGZ+w==}
 
   object.defaults@1.1.0:
     resolution: {integrity: sha512-c/K0mw/F11k4dEUBMW8naXUuBuhxRCfG7W+yFy8EcijU/rSmazOUd1XAEEe6bC0OuXY4HUKjTJv7xbxIMqdxrA==}
@@ -1643,8 +1644,8 @@ packages:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
 
-  string-width@7.1.0:
-    resolution: {integrity: sha512-SEIJCWiX7Kg4c129n48aDRwLbFb2LJmXXFrWBG4NGaRtMQ3myKPKbwrD1BKqQn74oCoNMBVrfDEr5M9YxCsrkw==}
+  string-width@7.2.0:
+    resolution: {integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==}
     engines: {node: '>=18'}
 
   string_decoder@1.1.1:
@@ -1702,8 +1703,8 @@ packages:
   teex@1.0.1:
     resolution: {integrity: sha512-eYE6iEI62Ni1H8oIa7KlDU6uQBtqr4Eajni3wX7rpfXD8ysFx8z0+dri+KWEPWpBsxXfxu58x/0jvTVT1ekOSg==}
 
-  text-decoder@1.1.0:
-    resolution: {integrity: sha512-TmLJNj6UgX8xcUZo4UDStGQtDiTzF7BzWlzn9g7UWrjkpHr5uJTK1ld16wZ3LXb2vb6jH8qU89dW5whuMdXYdw==}
+  text-decoder@1.1.1:
+    resolution: {integrity: sha512-8zll7REEv4GDD3x4/0pW+ppIxSNs7H1J10IKFZsuOMscumCdM2a+toDGLPA3T+1+fLBql4zbt5z83GEQGGV5VA==}
 
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
@@ -1886,8 +1887,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -1969,7 +1970,7 @@ snapshots:
 
   acorn@7.4.1: {}
 
-  acorn@8.12.0: {}
+  acorn@8.12.1: {}
 
   agent-base@6.0.2:
     dependencies:
@@ -2127,7 +2128,7 @@ snapshots:
   cli-truncate@4.0.0:
     dependencies:
       slice-ansi: 5.0.0
-      string-width: 7.1.0
+      string-width: 7.2.0
 
   cliui@4.1.0:
     dependencies:
@@ -2727,7 +2728,7 @@ snapshots:
     dependencies:
       hexo: 6.3.0(chokidar@3.6.0)
       hexo-pagination: 3.0.0
-      marked: 13.0.0
+      marked: 13.0.2
     transitivePeerDependencies:
       - chokidar
 
@@ -2737,7 +2738,7 @@ snapshots:
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.3.1
-      highlight.js: 11.9.0
+      highlight.js: 11.10.0
       htmlparser2: 7.2.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
@@ -2747,7 +2748,7 @@ snapshots:
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.3.1
-      highlight.js: 11.9.0
+      highlight.js: 11.10.0
       htmlparser2: 9.1.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
@@ -2810,7 +2811,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  highlight.js@11.9.0: {}
+  highlight.js@11.10.0: {}
 
   homedir-polyfill@1.0.3:
     dependencies:
@@ -2899,7 +2900,7 @@ snapshots:
     dependencies:
       binary-extensions: 2.3.0
 
-  is-core-module@2.13.1:
+  is-core-module@2.14.0:
     dependencies:
       hasown: 2.0.2
 
@@ -2986,7 +2987,7 @@ snapshots:
   jsdom@19.0.0:
     dependencies:
       abab: 2.0.6
-      acorn: 8.12.0
+      acorn: 8.12.1
       acorn-globals: 6.0.0
       cssom: 0.5.0
       cssstyle: 2.3.0
@@ -2999,7 +3000,7 @@ snapshots:
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
       is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.10
+      nwsapi: 2.2.12
       parse5: 6.0.1
       saxes: 5.0.1
       symbol-tree: 3.2.4
@@ -3010,7 +3011,7 @@ snapshots:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 10.0.0
-      ws: 8.17.1
+      ws: 8.18.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -3050,7 +3051,7 @@ snapshots:
       debug: 4.3.5
       execa: 8.0.1
       lilconfig: 3.1.2
-      listr2: 8.2.1
+      listr2: 8.2.3
       micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -3058,7 +3059,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  listr2@8.2.1:
+  listr2@8.2.3:
     dependencies:
       cli-truncate: 4.0.0
       colorette: 2.0.20
@@ -3126,7 +3127,7 @@ snapshots:
       mdurl: 1.0.1
       uc.micro: 1.0.6
 
-  marked@13.0.0: {}
+  marked@13.0.2: {}
 
   mdurl@1.0.1: {}
 
@@ -3249,7 +3250,7 @@ snapshots:
     optionalDependencies:
       chokidar: 3.6.0
 
-  nwsapi@2.2.10: {}
+  nwsapi@2.2.12: {}
 
   object.defaults@1.1.0:
     dependencies:
@@ -3438,7 +3439,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -3553,7 +3554,7 @@ snapshots:
     dependencies:
       fast-fifo: 1.3.2
       queue-tick: 1.0.1
-      text-decoder: 1.1.0
+      text-decoder: 1.1.1
     optionalDependencies:
       bare-events: 2.4.2
 
@@ -3576,7 +3577,7 @@ snapshots:
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
 
-  string-width@7.1.0:
+  string-width@7.2.0:
     dependencies:
       emoji-regex: 10.3.0
       get-east-asian-width: 1.2.0
@@ -3640,7 +3641,7 @@ snapshots:
     dependencies:
       streamx: 2.18.0
 
-  text-decoder@1.1.0:
+  text-decoder@1.1.1:
     dependencies:
       b4a: 1.6.6
 
@@ -3838,12 +3839,12 @@ snapshots:
   wrap-ansi@9.0.0:
     dependencies:
       ansi-styles: 6.2.1
-      string-width: 7.1.0
+      string-width: 7.2.0
       strip-ansi: 7.1.0
 
   wrappy@1.0.2: {}
 
-  ws@8.17.1: {}
+  ws@8.18.0: {}
 
   xml-name-validator@4.0.0: {}
 

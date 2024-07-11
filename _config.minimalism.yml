@@ -49,7 +49,7 @@ ga: G-EQQ8C8W01B
 baidu_tongji:
 
 comment:
-  enable: true
+  enable: false
   system: twikoo # 可选 gitalk、twikoo
   config:
     gitalk:
