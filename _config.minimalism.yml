@@ -37,10 +37,10 @@ contact:
 showFeatureImage: true
 
 # 首页头像图片
-avatar: https://i.theovan.cn/docs/202405101119004.png
+avatar: https://i.theojs.cn/docs/202405101119004.png
 
 # 站点图标
-favicon: https://i.theovan.cn/docs/202405101118781.ico
+favicon: https://i.theojs.cn/docs/202405101118781.ico
 
 # 谷歌统计 跟踪 ID
 ga: G-EQQ8C8W01B
@@ -66,7 +66,7 @@ comment:
 # 底部链接
 bottom_link:
   rss:
-    url: https://share.theovan.cn/atom.xml # beian.miit.gov.cn
+    url: https://share.theojs.cn/atom.xml # beian.miit.gov.cn
     text: RSS 订阅 # 沪ICP备 09007032号-1
     class: icp
   icp:
