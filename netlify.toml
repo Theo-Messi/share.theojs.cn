@@ -1,0 +1,29 @@
+[build.environment]
+  NODE_VERSION = "20"
+
+[build]
+  publish = "public"
+  command = "pnpm build"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    cache-control = "max-age=31536000, immutable"
+
+[[redirects]]
+  from = "https://share.theovan.cn/*"
+  to = "https://share.theojs.cn/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://share.theovan.xyz/*"
+  to = "https://share.theojs.cn/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://share.theovan.wiki/*"
+  to = "https://share.theojs.cn/:splat"
+  status = 301
+  force = true
