@@ -1,9 +1,8 @@
+node_modules
 .DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
-public/
-.deploy*/
-_multiconfig.yml
-public
+dist
+*.local
+.idea
+/*.md
+00_template.md
+.vitepress/cache

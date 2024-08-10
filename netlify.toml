@@ -2,7 +2,7 @@
   NODE_VERSION = "20"
 
 [build]
-  publish = "public"
+  publish = ".vitepress/dist"
   command = "pnpm build"
 
 [[headers]]
