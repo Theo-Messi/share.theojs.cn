@@ -15,7 +15,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: [
-        { find: /^.*\/VPFooter\.vue$/, replacement: '@theo-messi/tm-fe/Footer' }
+        { find: /^.*\/VPFooter\.vue$/, replacement: '@theojs/lumen/Footer' }
       ]
     },
     define: {
@@ -32,12 +32,32 @@ export default defineConfig({
       { text: '归档', link: '/pages/archives' },
       { text: '标签', link: '/pages/tags' }
     ],
-    search: {
-      provider: 'local'
-    },
     outline: [2, 3],
     outlineTitle: '文章摘要',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Theo-Messi' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Theo-Messi' }],
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   } as DefaultTheme.Config,
 
   srcExclude: ['README.md']

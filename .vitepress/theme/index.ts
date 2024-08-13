@@ -12,7 +12,7 @@ import {
 
 import './custom.css'
 // import '@fortawesome/fontawesome-free/css/all.min.css'
-import '@theo-messi/tm-fe/theme'
+import '@theojs/lumen/theme'
 
 const theme: Theme = {
   ...DefaultTheme,
