@@ -2,7 +2,6 @@ import { globby } from 'globby'
 import matter from 'gray-matter'
 import fs from 'fs-extra'
 import { resolve } from 'path'
-const title = '阿里云盘资源分享'
 
 type FrontMatter = {
   title: string
@@ -52,7 +51,6 @@ async function generatePaginationPages(
       const page = `
 ---
 page: true
-title: ${title}
 aside: false
 ---
 <script setup>
