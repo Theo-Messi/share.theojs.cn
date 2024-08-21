@@ -17,12 +17,6 @@
   force = true
 
 [[redirects]]
-  from = "https://share.theovan.xyz/*"
-  to = "https://share.theojs.cn/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "https://share.theovan.wiki/*"
   to = "https://share.theojs.cn/:splat"
   status = 301
