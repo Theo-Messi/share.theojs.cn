@@ -1,6 +1,0 @@
-export { default as NewLayout } from './NewLayout.vue'
-export { default as Archives } from './Archives.vue'
-export { default as Category } from './Category.vue'
-export { default as Tags } from './Tags.vue'
-export { default as Page } from './Page.vue'
-export { default as Comment } from './Comment.vue'

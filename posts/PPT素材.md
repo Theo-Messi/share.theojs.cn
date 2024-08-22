@@ -1,6 +1,5 @@
 ---
 title: 【10000套PPT素材集合】【上万套PPT模板】【打工人必备】
-author: Theo-Messi
 date: 2024-05-10
 category: 其他资源
 tags:

@@ -1,22 +1,22 @@
-import { Theme } from 'vitepress'
+import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 
-import {
-  NewLayout,
-  Archives,
-  Category,
-  Tags,
-  Page,
-  Comment
-} from './components'
+import { Archives, Category, Tags, Page } from '@theojs/solis'
+import { Announcement, DocAsideLogo, HomeFooter } from '@theojs/lumen'
+import { Aside_Data, Footer_Data } from '../data'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 
-import './custom.css'
-import '@theojs/lumen/theme'
+// import '@theojs/lumen/theme'
 
-const theme: Theme = {
-  ...DefaultTheme,
-  Layout: NewLayout,
+export default {
+  extends: DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'home-hero-info-before': () => h(Announcement),
+      'aside-outline-after': () => h(DocAsideLogo, { Aside_Data }),
+      'layout-bottom': () => h(HomeFooter, { Footer_Data })
+    })
+  },
   enhanceApp: (ctx) => {
     const { app } = ctx
     // 注册全局组件
@@ -25,8 +25,5 @@ const theme: Theme = {
     app.component('Category', Category)
     app.component('Archives', Archives)
     app.component('Page', Page)
-    app.component('Comment', Comment)
   }
 }
-
-export default theme
