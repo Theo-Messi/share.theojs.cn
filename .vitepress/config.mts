@@ -5,10 +5,11 @@ export default defineConfig({
   title: '阿里云盘资源分享',
   description:
     '阿里云盘资源分享 - 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美',
-  ignoreDeadLinks: true,
+  // ignoreDeadLinks: true,
   cleanUrls: true,
+  sitemap: { hostname: 'https://share.theojs.cn' },
   themeConfig: {
-    posts: await getPosts(12),
+    posts: await getPosts(7),
     logo: { src: 'https://i.theojs.cn/docs/202405101119004.png' },
     nav: [
       { text: '主页', link: '/' },
