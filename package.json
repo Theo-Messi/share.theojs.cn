@@ -1,4 +1,5 @@
 {
+  "packageManager": "pnpm@9.8.0",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
@@ -7,11 +8,11 @@
     "format:cheak": "prettier --check ."
   },
   "devDependencies": {
-    "vitepress": "^1.3.3"
+    "vitepress": "^1.3.4"
   },
   "dependencies": {
-    "@theojs/lumen": "^3.0.0",
-    "@theojs/solis": "1.4.0",
+    "@theojs/lumen": "^3.0.1",
+    "@theojs/solis": "1.4.1",
     "lint-staged": "^15.2.9",
     "prettier": "3.3.3",
     "simple-git-hooks": "^2.11.1",
