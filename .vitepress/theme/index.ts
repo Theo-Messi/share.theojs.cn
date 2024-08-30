@@ -10,7 +10,7 @@ import imageViewer from 'vitepress-plugin-image-viewer'
 
 import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
-
+import './pic.css'
 export default {
   extends: DefaultTheme,
   Layout() {
