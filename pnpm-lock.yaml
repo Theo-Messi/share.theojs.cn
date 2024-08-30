@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@theojs/lumen':
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^3.0.2
+        version: 3.0.2
       '@theojs/solis':
         specifier: 1.4.1
         version: 1.4.1
@@ -417,11 +417,11 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@theojs/lumen@3.0.1':
-    resolution: {integrity: sha512-wuw/92ZhX4ADEKG1Kj2jTydhL9cbY/DYVdq/9he0TxU/N3DkwhkXhXBRTnHPqJT59Oo1MkJbtWQDSDsoJjJj9w==}
+  '@theojs/lumen@3.0.2':
+    resolution: {integrity: sha512-nziF1Vvjs7wCdgBi7va+rcDKB9aDvhcwLyG2sTGU39xanEHfRqdqJkPR/FZxomClvdZ0Ja0mzbPlSGPztUSG7w==}
 
   '@theojs/solis@1.4.1':
-    resolution: {integrity: sha512-AvED05hTRFMRVvm29SpR5YkbRUj9bG8z4wOC5keyOHni47AaqfU+qPVjV1y9he2anIA0a6NgIfXnGMZnUMHVug==, tarball: https://registry.npmjs.org/@theojs/solis/-/solis-1.4.1.tgz}
+    resolution: {integrity: sha512-AvED05hTRFMRVvm29SpR5YkbRUj9bG8z4wOC5keyOHni47AaqfU+qPVjV1y9he2anIA0a6NgIfXnGMZnUMHVug==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -686,8 +686,8 @@ packages:
     engines: {node: '>=12'}
     hasBin: true
 
-  escalade@3.1.2:
-    resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
+  escalade@3.2.0:
+    resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
 
   esprima@4.0.1:
@@ -1538,7 +1538,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@theojs/lumen@3.0.1':
+  '@theojs/lumen@3.0.2':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
       bumpp: 9.5.2
@@ -1744,7 +1744,7 @@ snapshots:
       '@jsdevtools/ez-spawn': 3.0.4
       c12: 1.11.1
       cac: 6.7.14
-      escalade: 3.1.2
+      escalade: 3.2.0
       fast-glob: 3.3.2
       js-yaml: 4.1.0
       jsonc-parser: 3.3.1
@@ -1863,7 +1863,7 @@ snapshots:
       '@esbuild/win32-ia32': 0.21.5
       '@esbuild/win32-x64': 0.21.5
 
-  escalade@3.1.2: {}
+  escalade@3.2.0: {}
 
   esprima@4.0.1: {}
 
