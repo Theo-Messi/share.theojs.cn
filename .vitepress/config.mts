@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { getPosts } from '@theojs/solis/utils'
+import { figure } from '@mdit/plugin-figure'
+import { imgSize } from '@mdit/plugin-img-size'
 
 export default defineConfig({
   title: '阿里云盘资源分享',
@@ -8,6 +10,17 @@ export default defineConfig({
   metaChunk: true,
   cleanUrls: true,
   sitemap: { hostname: 'https://share.theojs.cn' },
+  markdown: {
+    image: { lazyLoading: true },
+    config: (md) => {
+      md.use(imgSize)
+      md.use(figure, {
+        figcaption: 'alt',
+        copyAttrs: '^class$',
+        lazy: true
+      })
+    }
+  },
   themeConfig: {
     posts: await getPosts(7),
     logo: { src: 'https://i.theojs.cn/docs/202405101119004.png' },
