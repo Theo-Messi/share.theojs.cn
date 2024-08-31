@@ -18,8 +18,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       '@theojs/solis':
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: https://pkg.pr.new/@theojs/solis@11d1956
+        version: https://pkg.pr.new/@theojs/solis@11d1956
       lint-staged:
         specifier: ^15.2.9
         version: 15.2.9
@@ -29,6 +29,9 @@ importers:
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
+      twikoo:
+        specifier: ^1.6.39
+        version: 1.6.39
       viewerjs:
         specifier: ^1.11.6
         version: 1.11.6
@@ -441,8 +444,9 @@ packages:
   '@theojs/lumen@3.1.0':
     resolution: {integrity: sha512-NyVJTAf3d3G3aIK8TvRLsR7j/3DJbQ/NdccmMNOfEkgdK36wnSLWHb4prxIYqGtO4jVQDQjfsPOLt5qIjc+OZw==}
 
-  '@theojs/solis@2.0.0':
-    resolution: {integrity: sha512-o0ECakeI31v79dtGLDKnqH8TkzsPbpt9WwNrqZkBHejt/ZfC+jwhyCJEj5s44RN5PQr+juq8nLzS1HvVLNslJw==}
+  '@theojs/solis@https://pkg.pr.new/@theojs/solis@11d1956':
+    resolution: {tarball: https://pkg.pr.new/@theojs/solis@11d1956}
+    version: 2.0.0
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1163,6 +1167,9 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
+  twikoo@1.6.39:
+    resolution: {integrity: sha512-gWM+gtZlHnlkGHL4ycQN1vLLuRxALwDrLVGcEOgkbKU3WX9qYf9zz/fFxbqCGvB/LTZLRuhLAc3EuwCtBI7VNQ==}
+
   type-detect@4.1.0:
     resolution: {integrity: sha512-Acylog8/luQ8L7il+geoSxhEkazvkslg7PSNKOX59mbB9cOveP5aq9h74Y7YU8yDpJwetzQQrfIwtf4Wp4LKcw==}
     engines: {node: '>=4'}
@@ -1604,7 +1611,7 @@ snapshots:
       - magicast
       - typescript
 
-  '@theojs/solis@2.0.0':
+  '@theojs/solis@https://pkg.pr.new/@theojs/solis@11d1956':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
       bumpp: 9.5.2
@@ -1612,6 +1619,7 @@ snapshots:
       globby: 14.0.2
       gray-matter: 4.0.3
       sass: 1.77.8
+      twikoo: 1.6.39
       vue: 3.4.38
     transitivePeerDependencies:
       - magicast
@@ -2373,6 +2381,8 @@ snapshots:
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
+
+  twikoo@1.6.39: {}
 
   type-detect@4.1.0: {}
 

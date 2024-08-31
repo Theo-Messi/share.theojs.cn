@@ -2,22 +2,23 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 
-import { Archives, Category, Tags, Page } from '@theojs/solis'
+import { Archives, Category, Tags, Page, Twikoo } from '@theojs/solis'
 import { Announcement, DocAsideLogo, HomeFooter } from '@theojs/lumen'
-import { Aside_Data, Footer_Data } from '../data'
+import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import imageViewer from 'vitepress-plugin-image-viewer'
 
 import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
 import './pic.css'
+
 export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'home-hero-info-before': () => h(Announcement),
       'aside-outline-after': () => h(DocAsideLogo, { Aside_Data }),
-      'layout-bottom': () => h(HomeFooter, { Footer_Data })
+      'layout-bottom': () => h(HomeFooter, { Footer_Data }),
+      'doc-after': () => h(Twikoo, { Twikoo_Data })
     })
   },
   enhanceApp: (ctx) => {
