@@ -18,8 +18,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       '@theojs/solis':
-        specifier: https://pkg.pr.new/@theojs/solis@11d1956
-        version: https://pkg.pr.new/@theojs/solis@11d1956
+        specifier: https://pkg.pr.new/@theojs/solis@278891a
+        version: https://pkg.pr.new/@theojs/solis@278891a
       lint-staged:
         specifier: ^15.2.9
         version: 15.2.9
@@ -444,8 +444,8 @@ packages:
   '@theojs/lumen@3.1.0':
     resolution: {integrity: sha512-NyVJTAf3d3G3aIK8TvRLsR7j/3DJbQ/NdccmMNOfEkgdK36wnSLWHb4prxIYqGtO4jVQDQjfsPOLt5qIjc+OZw==}
 
-  '@theojs/solis@https://pkg.pr.new/@theojs/solis@11d1956':
-    resolution: {tarball: https://pkg.pr.new/@theojs/solis@11d1956}
+  '@theojs/solis@https://pkg.pr.new/@theojs/solis@278891a':
+    resolution: {tarball: https://pkg.pr.new/@theojs/solis@278891a}
     version: 2.0.0
 
   '@types/estree@1.0.5':
@@ -1611,7 +1611,7 @@ snapshots:
       - magicast
       - typescript
 
-  '@theojs/solis@https://pkg.pr.new/@theojs/solis@11d1956':
+  '@theojs/solis@https://pkg.pr.new/@theojs/solis@278891a':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
       bumpp: 9.5.2

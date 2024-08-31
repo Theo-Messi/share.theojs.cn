@@ -45,7 +45,9 @@ export default defineConfig({
 
     // 语言切换
     langMenuLabel: '切换语言',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Theo-Messi' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Theo-Messi/share.theojs.cn' }
+    ],
     search: {
       provider: 'local',
       options: {

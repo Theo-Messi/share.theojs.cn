@@ -3,20 +3,19 @@ import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 
 import { Archives, Category, Tags, Page, Twikoo } from '@theojs/solis'
-import { Announcement, DocAsideLogo, HomeFooter } from '@theojs/lumen'
+import { DocAsideLogo, HomeFooter } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import imageViewer from 'vitepress-plugin-image-viewer'
 
 import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
-import './pic.css'
 
 export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'aside-outline-after': () => h(DocAsideLogo, { Aside_Data }),
+      'aside-top': () => h(DocAsideLogo, { Aside_Data }),
       'layout-bottom': () => h(HomeFooter, { Footer_Data }),
       'doc-after': () => h(Twikoo, { Twikoo_Data })
     })
