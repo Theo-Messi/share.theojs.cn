@@ -13,7 +13,7 @@
   "dependencies": {
     "@mdit/plugin-figure": "^0.13.1",
     "@mdit/plugin-img-size": "^0.13.1",
-    "@theojs/lumen": "^3.1.0",
+    "@theojs/lumen": "^3.2.1",
     "@theojs/solis": "https://pkg.pr.new/@theojs/solis@278891a",
     "lint-staged": "^15.2.9",
     "prettier": "3.3.3",
