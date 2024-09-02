@@ -13,9 +13,9 @@
   "dependencies": {
     "@mdit/plugin-figure": "^0.13.1",
     "@mdit/plugin-img-size": "^0.13.1",
-    "@theojs/lumen": "^3.1.0",
-    "@theojs/solis": "2.0.0",
-    "lint-staged": "^15.2.9",
+    "@theojs/lumen": "^3.2.1",
+    "@theojs/solis": "2.1.1",
+    "lint-staged": "^15.2.10",
     "prettier": "3.3.3",
     "simple-git-hooks": "^2.11.1",
     "twikoo": "^1.6.39",
