@@ -3,6 +3,8 @@ import { getPosts } from '@theojs/solis/utils'
 import { figure } from '@mdit/plugin-figure'
 import { imgSize } from '@mdit/plugin-img-size'
 
+const posts = { posts: await getPosts(10) }
+
 export default defineConfig({
   title: '阿里云盘资源分享',
   description:
@@ -22,7 +24,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    posts: await getPosts(7),
+    ...posts,
     logo: { src: 'https://i.theojs.cn/docs/202405101119004.png' },
     nav: [
       { text: '主页', link: '/' },

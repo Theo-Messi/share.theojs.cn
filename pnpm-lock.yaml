@@ -29,9 +29,6 @@ importers:
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
-      twikoo:
-        specifier: ^1.6.39
-        version: 1.6.39
       viewerjs:
         specifier: ^1.11.6
         version: 1.11.6
