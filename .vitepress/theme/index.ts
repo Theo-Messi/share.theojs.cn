@@ -3,7 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 
 import { Archives, Category, Tags, Page, Twikoo } from '@theojs/solis'
-import { DocAsideLogo, HomeFooter } from '@theojs/lumen'
+import { DocAsideLogo, HomeFooter, ShareButton } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import imageViewer from 'vitepress-plugin-image-viewer'
@@ -17,7 +17,8 @@ export default {
     return h(DefaultTheme.Layout, null, {
       'aside-top': () => h(DocAsideLogo, { Aside_Data }),
       'layout-bottom': () => h(HomeFooter, { Footer_Data }),
-      'doc-after': () => h(Twikoo, { Twikoo_Data })
+      'doc-after': () => h(Twikoo, { Twikoo_Data }),
+      'aside-outline-after': () => h(ShareButton)
     })
   },
   enhanceApp: (ctx) => {
