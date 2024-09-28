@@ -9,6 +9,7 @@ export default defineConfig({
   title: '阿里云盘资源分享',
   description:
     '阿里云盘资源分享 - 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美',
+  lang: 'zh-CN',
   metaChunk: true,
   cleanUrls: true,
   sitemap: { hostname: 'https://share.theojs.cn' },
@@ -34,6 +35,26 @@ export default defineConfig({
     ],
     outline: [2, 3],
     outlineTitle: '文章摘要',
+
+    // 上次更新
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'medium'
+      }
+    },
+    // GitHub编辑页面
+    editLink: {
+      pattern: 'https://github.com/Theo-Messi/share.theojs.cn/edit/main/:path',
+      text: '为此页提供修改建议'
+    },
+
+    // 文章翻页
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
     // 移动端 - 返回顶部
     returnToTopLabel: '返回顶部',
 
