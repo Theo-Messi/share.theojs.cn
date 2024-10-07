@@ -2,8 +2,15 @@ import { defineConfig } from 'vitepress'
 import { getPosts } from '@theojs/solis/utils'
 import { figure } from '@mdit/plugin-figure'
 import { imgSize } from '@mdit/plugin-img-size'
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
 const posts = { posts: await getPosts(10) }
+const baseUrl = 'https://share.theojs.cn'
+const RSS: RSSOptions = {
+  title: '阿里云盘资源分享',
+  baseUrl,
+  copyright: `Copyright (c) 2019-${new Date().getFullYear()}, Theo-Messi`
+}
 
 export default defineConfig({
   title: '阿里云盘资源分享',
@@ -25,6 +32,7 @@ export default defineConfig({
     }
   },
   vite: {
+    plugins: [RssPlugin(RSS)],
     css: {
       preprocessorOptions: {
         scss: {
