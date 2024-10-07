@@ -18,8 +18,8 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       '@theojs/solis':
-        specifier: ^2.2.5
-        version: 2.2.5
+        specifier: ^2.3.0
+        version: 2.3.0
       lint-staged:
         specifier: ^15.2.10
         version: 15.2.10
@@ -459,8 +459,8 @@ packages:
   '@theojs/lumen@3.3.3':
     resolution: {integrity: sha512-rZmyutvr+hVFqqKXri7DchuF4DESU3vD5uHz/inM+6Lw5LO/KQ+xHGvz5LUhcdxlrdIOWol7lTg8Vql6r5Pseg==}
 
-  '@theojs/solis@2.2.5':
-    resolution: {integrity: sha512-BujX/U+hoNutybLjzTsi1MnMOA/hbQz7b9fK+4x7aSA4TOhofs/eVyMd1mXEEG64sUInlInn2hYnIHWx4mK7wg==}
+  '@theojs/solis@2.3.0':
+    resolution: {integrity: sha512-CWE+L4QlfLnd/4Mjb+BzZ+KhkndJUwIU6ISC7/WGuHbhxoWsS5vyXqzCXeT7zYFiPruga1QJch8yfIUyXjCZPw==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -1768,7 +1768,7 @@ snapshots:
       - magicast
       - typescript
 
-  '@theojs/solis@2.2.5':
+  '@theojs/solis@2.3.0':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
       bumpp: 9.6.1
