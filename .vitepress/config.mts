@@ -24,6 +24,15 @@ export default defineConfig({
       })
     }
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern'
+        }
+      }
+    }
+  },
   themeConfig: {
     ...posts,
     logo: { src: 'https://i.theojs.cn/docs/202405101119004.png' },
