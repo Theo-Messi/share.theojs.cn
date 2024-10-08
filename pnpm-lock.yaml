@@ -15,8 +15,8 @@ importers:
         specifier: ^0.13.1
         version: 0.13.1(markdown-it@14.1.0)
       '@theojs/lumen':
-        specifier: ^3.3.3
-        version: 3.3.3
+        specifier: ^3.4.0
+        version: 3.4.0
       '@theojs/solis':
         specifier: ^2.3.0
         version: 2.3.0
@@ -456,8 +456,8 @@ packages:
   '@sugarat/theme-shared@0.0.2':
     resolution: {integrity: sha512-HCrMyHpLEcKLnDco1SIbpCik4+QhLnsI35IrqoSZp2dqHnVPRohaStCbqWHiqYgewQXiDvTfg0dQ90QqD64ESA==}
 
-  '@theojs/lumen@3.3.3':
-    resolution: {integrity: sha512-rZmyutvr+hVFqqKXri7DchuF4DESU3vD5uHz/inM+6Lw5LO/KQ+xHGvz5LUhcdxlrdIOWol7lTg8Vql6r5Pseg==}
+  '@theojs/lumen@3.4.0':
+    resolution: {integrity: sha512-G3AIinMUb61V/BY0gn2afKfOikHMyCjnqUv9T/gssSLG45t3pvaW9oNCtll0frxaDzhHTZz6SCHFp6nDxlcAVg==}
 
   '@theojs/solis@2.3.0':
     resolution: {integrity: sha512-CWE+L4QlfLnd/4Mjb+BzZ+KhkndJUwIU6ISC7/WGuHbhxoWsS5vyXqzCXeT7zYFiPruga1QJch8yfIUyXjCZPw==}
@@ -1757,7 +1757,7 @@ snapshots:
       cross-spawn: 7.0.3
       gray-matter: 4.0.3
 
-  '@theojs/lumen@3.3.3':
+  '@theojs/lumen@3.4.0':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
       bumpp: 9.6.1
