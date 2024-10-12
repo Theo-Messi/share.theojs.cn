@@ -24,22 +24,12 @@ export default defineConfig({
     image: { lazyLoading: true },
     config: (md) => {
       md.use(imgSize)
-      md.use(figure, {
-        figcaption: 'alt',
-        copyAttrs: '^class$',
-        lazy: true
-      })
+      md.use(figure, { figcaption: 'alt', copyAttrs: '^class$', lazy: true })
     }
   },
   vite: {
     plugins: [RssPlugin(RSS)],
-    css: {
-      preprocessorOptions: {
-        scss: {
-          api: 'modern'
-        }
-      }
-    }
+    css: { preprocessorOptions: { scss: { api: 'modern' } } }
   },
   themeConfig: {
     ...posts,
@@ -56,10 +46,7 @@ export default defineConfig({
     // 上次更新
     lastUpdated: {
       text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'medium',
-        timeStyle: 'medium'
-      }
+      formatOptions: { dateStyle: 'medium', timeStyle: 'medium' }
     },
     // GitHub编辑页面
     editLink: {
@@ -68,10 +55,7 @@ export default defineConfig({
     },
 
     // 文章翻页
-    docFooter: {
-      prev: '上一篇',
-      next: '下一篇'
-    },
+    docFooter: { prev: '上一篇', next: '下一篇' },
     // 移动端 - 返回顶部
     returnToTopLabel: '返回顶部',
 
