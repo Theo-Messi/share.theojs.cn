@@ -21,9 +21,7 @@ export default {
       'aside-outline-after': () => h(ShareButton)
     })
   },
-  enhanceApp: (ctx) => {
-    const { app } = ctx
-    // 注册全局组件
+  enhanceApp: ({ app }) => {
     googleAnalytics({ id: 'G-EQQ8C8W01B' })
     app.component('Tags', Tags)
     app.component('Category', Category)
