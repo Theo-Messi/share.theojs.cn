@@ -25,7 +25,7 @@ export const Aside_Data = [
   },
   {
     link: 'https://github.com/Theo-Messi/tools/tree/main/packages/Lumen',
-    icon: 'https://tools.theojs.cn/TM-FELogo.png',
+    icon: 'https://tools.theojs.cn/Logo.png',
     name: '@theojs/Lumen',
     info1: '集成 Vue 功能组件',
     info2: 'VitePress 主题美化'
