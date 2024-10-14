@@ -8,7 +8,7 @@
     "format:cheak": "prettier --check ."
   },
   "devDependencies": {
-    "vitepress": "^1.4.0"
+    "vitepress": "^1.4.1"
   },
   "dependencies": {
     "@mdit/plugin-figure": "^0.13.1",
