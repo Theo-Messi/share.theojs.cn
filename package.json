@@ -22,7 +22,7 @@
     "vitepress-plugin-google-analytics": "^1.0.2",
     "vitepress-plugin-image-viewer": "^1.1.5",
     "vitepress-plugin-rss": "^0.2.10",
-    "vue": "^3.5.11"
+    "vue": "^3.5.12"
   },
   "prettier": {
     "semi": false,
