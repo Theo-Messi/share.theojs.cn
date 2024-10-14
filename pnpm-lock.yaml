@@ -15,8 +15,8 @@ importers:
         specifier: ^0.13.1
         version: 0.13.1(markdown-it@14.1.0)
       '@theojs/lumen':
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.5.1
+        version: 3.5.1
       '@theojs/solis':
         specifier: ^2.4.0
         version: 2.4.0
@@ -532,8 +532,8 @@ packages:
   '@sugarat/theme-shared@0.0.2':
     resolution: {integrity: sha512-HCrMyHpLEcKLnDco1SIbpCik4+QhLnsI35IrqoSZp2dqHnVPRohaStCbqWHiqYgewQXiDvTfg0dQ90QqD64ESA==}
 
-  '@theojs/lumen@3.4.0':
-    resolution: {integrity: sha512-G3AIinMUb61V/BY0gn2afKfOikHMyCjnqUv9T/gssSLG45t3pvaW9oNCtll0frxaDzhHTZz6SCHFp6nDxlcAVg==}
+  '@theojs/lumen@3.5.1':
+    resolution: {integrity: sha512-tJvNldoEzl2Q1Pqg8Q/BoijpYfhQNiyeV5ww2u9myrEvMMMD6mUVRie1ZnqBleCvEQFoO6UZ8sLnvm7TsBXqzQ==}
 
   '@theojs/solis@2.4.0':
     resolution: {integrity: sha512-U78fL9uuWmskNnSotbHZkEObKxnqJov52wPgxJVwvVjykAvecbtJimcIdFhefNkX7y0875Cxp84eF+mJPnYS2A==}
@@ -706,11 +706,6 @@ packages:
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
-
-  bumpp@9.6.1:
-    resolution: {integrity: sha512-lQlPfyS0GrO5FaOODK+OHQxfCT+6/xWfd3Zt8dzsmzm69RWQfh5fAU9igmeZWOzK/s+4vL+gQLo3yw474ntBZw==}
-    engines: {node: '>=10'}
-    hasBin: true
 
   bumpp@9.7.1:
     resolution: {integrity: sha512-Z6fhD5B8POcSkP+LIHeFQ0+vF0p/C3U+aYp3Yui748VCmsHrhJ/ZshP2970FqE93ymHrJVXTTF8/HDKrRNEYvw==}
@@ -1240,11 +1235,6 @@ packages:
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
-
-  sass@1.79.4:
-    resolution: {integrity: sha512-K0QDSNPXgyqO4GZq2HO5Q70TLxTH6cIT59RdoCHMivrC8rqzaTw5ab9prjz9KUN1El4FLXrBXJhik61JR4HcGg==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
 
   sass@1.79.5:
     resolution: {integrity: sha512-W1h5kp6bdhqFh2tk3DsI771MoEJjvrSY/2ihJRJS4pjIyfJCw0nTsxqhnrUzaLMOJjFchj8rOvraI/YUVjtx5g==}
@@ -1910,11 +1900,11 @@ snapshots:
       cross-spawn: 7.0.3
       gray-matter: 4.0.3
 
-  '@theojs/lumen@3.4.0':
+  '@theojs/lumen@3.5.1':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
-      bumpp: 9.6.1
-      sass: 1.79.4
+      bumpp: 9.7.1
+      sass: 1.79.5
       twikoo: 1.6.39
       vue: 3.5.12
     transitivePeerDependencies:
@@ -2120,20 +2110,6 @@ snapshots:
   braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
-
-  bumpp@9.6.1:
-    dependencies:
-      '@jsdevtools/ez-spawn': 3.0.4
-      c12: 1.11.2
-      cac: 6.7.14
-      escalade: 3.2.0
-      fast-glob: 3.3.2
-      js-yaml: 4.1.0
-      jsonc-parser: 3.3.1
-      prompts: 2.4.2
-      semver: 7.6.3
-    transitivePeerDependencies:
-      - magicast
 
   bumpp@9.7.1:
     dependencies:
@@ -2706,12 +2682,6 @@ snapshots:
   run-parallel@1.2.0:
     dependencies:
       queue-microtask: 1.2.3
-
-  sass@1.79.4:
-    dependencies:
-      chokidar: 4.0.1
-      immutable: 4.3.7
-      source-map-js: 1.2.1
 
   sass@1.79.5:
     dependencies:
