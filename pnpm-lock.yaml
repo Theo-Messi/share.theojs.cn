@@ -39,8 +39,8 @@ importers:
         specifier: ^1.1.5
         version: 1.1.5
       vitepress-plugin-rss:
-        specifier: ^0.2.10
-        version: 0.2.10(vitepress@1.4.1(@algolia/client-search@5.2.3)(@types/node@22.5.2)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.0))
+        specifier: ^0.3.0
+        version: 0.3.0(vitepress@1.4.1(@algolia/client-search@5.2.3)(@types/node@22.5.2)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.0))
       vue:
         specifier: ^3.5.12
         version: 3.5.12
@@ -529,8 +529,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@sugarat/theme-shared@0.0.2':
-    resolution: {integrity: sha512-HCrMyHpLEcKLnDco1SIbpCik4+QhLnsI35IrqoSZp2dqHnVPRohaStCbqWHiqYgewQXiDvTfg0dQ90QqD64ESA==}
+  '@sugarat/theme-shared@0.0.3':
+    resolution: {integrity: sha512-94Ss05oX/PpAAaVUxjvuXmsr3/ZVLXMeQkPhd1IdvKzRLn9Ong2S1vxCy1e1+TArhY72g3ktsBpaWhn5yUx4ng==}
 
   '@theojs/lumen@3.5.1':
     resolution: {integrity: sha512-tJvNldoEzl2Q1Pqg8Q/BoijpYfhQNiyeV5ww2u9myrEvMMMD6mUVRie1ZnqBleCvEQFoO6UZ8sLnvm7TsBXqzQ==}
@@ -1431,8 +1431,8 @@ packages:
   vitepress-plugin-image-viewer@1.1.5:
     resolution: {integrity: sha512-XnAb7bhqRCJB3JsKmah6oTDMTQNUQmLID+SME9Zwg/IWbYT+zySt2HuHHeTJlfHMmYpFBhvu8ayvBM0Fu3hdVQ==}
 
-  vitepress-plugin-rss@0.2.10:
-    resolution: {integrity: sha512-Bg6KOluYqlVmlq6uCOMat8wIZgygTJoJoG/5O41ZkXK/E5EL+jclM3v8Y45OIUZ/K9uH9Y215gXxHYlRSJD9zg==}
+  vitepress-plugin-rss@0.3.0:
+    resolution: {integrity: sha512-pK8HepzkfB9RnA+KMFKIs1XxA4EMcDxXgiZ86mJitqb41LS/dWcleOXYmjCFP7sCUgitDFrBt74+rQgkceer4g==}
     peerDependencies:
       vitepress: ^1
 
@@ -1892,7 +1892,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@sugarat/theme-shared@0.0.2':
+  '@sugarat/theme-shared@0.0.3':
     dependencies:
       cross-spawn: 7.0.3
       gray-matter: 4.0.3
@@ -2848,10 +2848,9 @@ snapshots:
     dependencies:
       viewerjs: 1.11.6
 
-  vitepress-plugin-rss@0.2.10(vitepress@1.4.1(@algolia/client-search@5.2.3)(@types/node@22.5.2)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.0)):
+  vitepress-plugin-rss@0.3.0(vitepress@1.4.1(@algolia/client-search@5.2.3)(@types/node@22.5.2)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.0)):
     dependencies:
-      '@sugarat/theme-shared': 0.0.2
-      fast-glob: 3.3.2
+      '@sugarat/theme-shared': 0.0.3
       feed: 4.2.2
       vitepress: 1.4.1(@algolia/client-search@5.2.3)(@types/node@22.5.2)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.0)
 
