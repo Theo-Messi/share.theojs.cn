@@ -5,20 +5,38 @@ import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
 const posts = { posts: await getPosts(10) }
 const baseUrl = 'https://share.theojs.cn'
+const icon = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18" fill="currentColor"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z" fill="currentColor"></path></svg>`
+
 const RSS: RSSOptions = {
   title: '阿里云盘资源分享',
+  icon,
   baseUrl,
-  copyright: `Copyright (c) 2019-${new Date().getFullYear()}, Theo-Messi`
+  description:
+    '阿里云盘资源分享 - 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美',
+  id: baseUrl,
+  link: baseUrl,
+  language: 'zh-cn',
+  image: 'https://i.theojs.cn/docs/202405101119004.png',
+  favicon: 'https://share.theojs.cn/favicon.ico',
+  copyright: `Copyright (c) 2019-${new Date().getFullYear()}, Theo-Messi`,
+  url: `${baseUrl}/feed.rss`,
+  filter(value) {
+    return value.url.startsWith('/posts/') && !value.url.endsWith('/posts/')
+  }
 }
 
 export default defineConfig({
   title: '阿里云盘资源分享',
-  description:
-    '阿里云盘资源分享 - 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美',
-  lang: 'zh-CN',
+  description: `阿里云盘资源分享 - 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美`,
+  lang: 'zh-cn',
   metaChunk: true,
   cleanUrls: true,
-  sitemap: { hostname: 'https://share.theojs.cn' },
+  sitemap: {
+    hostname: 'https://share.theojs.cn',
+    transformItems(items) {
+      return items.filter((item) => item.url.includes('posts'))
+    }
+  },
   markdown: {
     image: { lazyLoading: true },
     config: (md) => {
@@ -31,7 +49,7 @@ export default defineConfig({
   },
   themeConfig: {
     ...posts,
-    logo: { src: '/favicon.ico' },
+    logo: { src: 'https://i.theojs.cn/docs/202405101119004.png' },
     nav: [
       { text: '主页', link: '/' },
       { text: '分类', link: '/pages/category' },
@@ -106,10 +124,23 @@ export default defineConfig({
       'link',
       {
         rel: 'icon',
-        type: 'icon',
-        href: 'https://i.theojs.cn/docs/202405101119004.png'
+        type: 'image/png',
+        href: '/favicon-48x48.png',
+        sizes: '48x48'
       }
     ],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png'
+      }
+    ],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'MyWebSite' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'author', content: 'Theo-Messi' }],
@@ -125,7 +156,7 @@ export default defineConfig({
       }
     ],
     ['meta', { name: 'og:type', content: 'website' }],
-    ['meta', { name: 'og:locale', content: 'zh-CN' }],
+    ['meta', { name: 'og:locale', content: 'zh-cn' }],
     ['meta', { name: 'og:site_name', content: '阿里云盘资源分享' }],
     ['meta', { name: 'og:title', content: '阿里云盘资源分享' }],
     ['meta', { name: 'og:url', content: 'https://share.theojs.cn' }],
