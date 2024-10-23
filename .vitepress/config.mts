@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { getPosts } from '@theojs/solis/utils'
 import { figure } from '@mdit/plugin-figure'
-import { imgSize } from '@mdit/plugin-img-size'
 import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
 const posts = { posts: await getPosts(10) }
@@ -23,7 +22,6 @@ export default defineConfig({
   markdown: {
     image: { lazyLoading: true },
     config: (md) => {
-      md.use(imgSize)
       md.use(figure, { figcaption: 'alt', copyAttrs: '^class$', lazy: true })
     }
   },
@@ -33,7 +31,7 @@ export default defineConfig({
   },
   themeConfig: {
     ...posts,
-    logo: { src: 'https://i.theojs.cn/docs/202405101119004.png' },
+    logo: { src: '/favicon.ico' },
     nav: [
       { text: '主页', link: '/' },
       { text: '分类', link: '/pages/category' },

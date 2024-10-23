@@ -2,8 +2,8 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 
-import { Archives, Category, Tags, Page, Twikoo } from '@theojs/solis'
-import { DocAsideLogo, HomeFooter, ShareButton } from '@theojs/lumen'
+import { Archives, Category, Tags, Page, Twikoo, Info } from '@theojs/solis'
+import { DocAsideLogo, HomeFooter, ShareButton, DocLinks } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import imageViewer from 'vitepress-plugin-image-viewer'
@@ -18,7 +18,8 @@ export default {
       'aside-top': () => h(DocAsideLogo, { Aside_Data }),
       'layout-bottom': () => h(HomeFooter, { Footer_Data }),
       'doc-after': () => h(Twikoo, { Twikoo_Data }),
-      'aside-outline-after': () => h(ShareButton)
+      'aside-outline-after': () => h(ShareButton),
+      'doc-before': () => h(Info)
     })
   },
   enhanceApp: ({ app }) => {
@@ -27,6 +28,7 @@ export default {
     app.component('Category', Category)
     app.component('Archives', Archives)
     app.component('Page', Page)
+    app.component('Links', DocLinks)
   },
   setup() {
     const route = useRoute()

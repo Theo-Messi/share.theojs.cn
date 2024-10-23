@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Sitemap: https://share.theojs.cn/sitemap.xml
-Sitemap: https://share.theojs.cn/sitemap.txt
+Sitemap: https://share.theojs.cn/feed.rss

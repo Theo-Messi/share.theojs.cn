@@ -19,15 +19,14 @@ export const Aside_Data = [
   // },
   {
     link: 'https://pages.aliyundrive.com/mobile-page/web/commission.html?disableNav=YES',
-    icon: 'https://img2.baidu.com/it/u=3966973686,63129941&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500',
+    icon: 'https://s1.aigei.com/src/img/png/3d/3dbe2a17f4894ca4bcf6dc67eeb100d5.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:yh-G2NLne933F7tDlyvK84uGVG0=',
     Activity: '阿里云盘分享得现金活动',
     info1: '单笔返佣最高<span style="color: var(--vp-c-brand-3)"> 59 </span>元'
   },
   {
-    // link: 'https://pages.aliyundrive.com/mobile-page/web/commission.html?disableNav=YES',
-    icon: 'https://img2.baidu.com/it/u=3966973686,63129941&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500',
-    Activity:
-      '阿里云盘<span style="color: var(--vp-c-brand-3)">200G</span>粉丝福利码',
+    link: '',
+    icon: 'https://s1.aigei.com/src/img/png/3d/3dbe2a17f4894ca4bcf6dc67eeb100d5.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:yh-G2NLne933F7tDlyvK84uGVG0=',
+    Activity: '200G 容量粉丝福利码',
     info1: '<span style="color: var(--vp-c-brand-3)">TheoMessiXfPuc</span>',
     info2: '容量从领取日起有效期三个月'
   },
