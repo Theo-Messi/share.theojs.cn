@@ -13,7 +13,7 @@
   "dependencies": {
     "@mdit/plugin-figure": "^0.13.1",
     "@theojs/lumen": "^3.5.3",
-    "@theojs/solis": "^2.5.1",
+    "@theojs/solis": "^2.6.0",
     "lint-staged": "^15.2.10",
     "prettier": "3.3.3",
     "simple-git-hooks": "^2.11.1",

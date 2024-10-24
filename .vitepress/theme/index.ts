@@ -2,7 +2,7 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 
-import { Archives, Category, Tags, Page, Twikoo, Info } from '@theojs/solis'
+import Solistheme, { Twikoo, Info } from '@theojs/solis'
 import { DocAsideLogo, HomeFooter, ShareButton, DocLinks } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
@@ -12,7 +12,7 @@ import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
 
 export default {
-  extends: DefaultTheme,
+  extends: Solistheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'aside-top': () => h(DocAsideLogo, { Aside_Data }),
@@ -24,10 +24,6 @@ export default {
   },
   enhanceApp: ({ app }) => {
     googleAnalytics({ id: 'G-EQQ8C8W01B' })
-    app.component('Tags', Tags)
-    app.component('Category', Category)
-    app.component('Archives', Archives)
-    app.component('Page', Page)
     app.component('Links', DocLinks)
   },
   setup() {
